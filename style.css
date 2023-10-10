@@ -1,0 +1,87 @@
+html{
+    overflow: hidden;
+}
+body{
+    background-image: url(back.jpg);
+    
+}
+::placeholder{
+    color:black;
+    background-color: #fdffae;
+    
+    font-size: 15px;
+    
+}
+#t3{
+margin:150px 350px ;
+width: 750px;
+height: 500px;
+background-color: #fdffae;
+background-image: url(flower.jpeg);
+background-position: left;
+background-repeat: no-repeat;
+background-size:contain;
+float: left;
+border-radius: 12px;
+
+
+}
+
+#t2{
+   margin-left: 300px;
+   margin-right: 100px;
+   margin-top: 50px;
+   padding:0 10px 100px 0;
+   float: right;
+   
+}
+input{
+    padding:15px 10px;
+   border:hidden;
+   outline: none;
+   border-bottom: 1px solid black;
+   background-clip:content-box;
+   
+}
+select{
+    padding:15px 10px;
+    width: 85%;
+    border:hidden;
+    outline: none;
+    border-bottom: 1px solid black;
+    background-clip:content-box;
+    font-size: 15px;
+    background-color: #fdffae;
+}
+
+
+h1{
+    color: black;
+margin-bottom: 20px;
+    text-align: center;
+    padding: auto;
+
+
+
+}
+
+#n1{
+    padding: 10px;
+    margin: 20px;
+    border: solid 1px gold;
+    border-radius:12px;
+    font-size: 20px;
+    background-color:gold;
+    background-attachment: fixed;
+    background-clip: padding-box;
+}
+label , select , input{
+    display: block;
+}
+
+
+
+
+
+
+
